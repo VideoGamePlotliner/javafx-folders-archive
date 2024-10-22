@@ -1,0 +1,2 @@
+@version and @since numbers in a given module correspond to THAT module only
+and thus do NOT transcend the modules themselves.

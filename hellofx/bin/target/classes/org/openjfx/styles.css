@@ -1,0 +1,5 @@
+/* https://github.com/openjfx/samples/blob/605de7f9fac6b595f787c9d718aa6e523aa1b24f/IDE/VSCode/Modular/Maven/hellofx/src/main/resources/org/openjfx/hellofx/styles.css */
+
+.button {
+    -fx-text-fill: blue;
+}

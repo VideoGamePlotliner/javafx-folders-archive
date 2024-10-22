@@ -1,0 +1,36 @@
+Use WeakInvalidationListener where needed, which is currently nowhere.
+Create classes for TreeTableView and such.
+Fix incorrect comments.
+Insert null checks and use Objects.requireNonNull() everywhere.
+Add 'final' modifier where possible.
+Add explicit type parameters where possible. Search for < and >.
+Use Disposable verifyNotDisposed() everywhere.
+Double-check everything.
+Use printf more.
+Make NodeTreeEditorViewSkin???
+Make DefaultPropertyTreeEditorViewSkin (you know, @DefaultProperty("XXXX"))???
+Let subclasses disable buttons.
+Get rid of 'setSkin(new XXXSkin<>(XXXX))' in disposal methods: I need to test the weak handlers and weak listeners.
+Use SubroutinePrinter in more classes
+Use registerXXXXListener(...) and unregisterXXXXListener(...)???
+In ListenerAndHandlerBindings, store System.identityHashCode(...) instead???
+Don't use ListenerAndHandlerBindings with weak handlers or weak listeners.
+Encapsulate everything as much as possible.
+In TreeEditorViewSkin_BoundItems, we must have a WeakListChangeListener<T> to forward changes to the bound tree to the skin's tree. Add a way to test that forwarding.
+
+Use WeakListChangeListener where needed, namely:
+- MapTableViewSkin
+Use WeakEventHandler where needed, namely:
+- CellViewerApplication
+- ColorPickerListCellSkin
+- DatePickerListCellSkin
+- TableColumnListCellSkin
+- ListEditorViewSkin
+- ColorPickerTableCellSkin
+- DatePickerTableCellSkin
+- ColoredDateTableView
+- TableEditorViewSkin
+- ColorPickerTreeCellSkin
+- DatePickerTreeCellSkin
+- TableColumnTreeCellSkin
+- TreeEditorViewSkin

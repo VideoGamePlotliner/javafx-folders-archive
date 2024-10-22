@@ -1,0 +1,4 @@
+https://semver.org/
+https://openjfx.io/openjfx-docs/#IDE-VSCode
+https://code.visualstudio.com/docs/java/java-project
+https://openjfx.io/

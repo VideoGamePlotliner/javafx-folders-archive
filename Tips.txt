@@ -1,0 +1,2 @@
+CTRL+SHIFT+P > Java: Create Java Project
+Sidebar > Explorer > Java Projects > "Plus" Icon
